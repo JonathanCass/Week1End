@@ -5,6 +5,7 @@ html {
 	box-sizing: inherit;
 }
 body{
+	font-size: 14px;
 	color: white;
 	background-color: black;
 	/*background-image: url("bg.jpg");*/
@@ -23,15 +24,23 @@ body{
 	border-width: 0 0 5px;
 	border-color: #919191;
 	border-style: solid;
+	margin:5px 0px 15px 10px;
+}
+#bpush{
+	margin-left: 10px;
 }
 p{
 	display:block;
-	width:200px;
+	width:150px;
 	height:60px;
 	line-height: 40px;
 }
 li{
 	line-height: 7px;
+}
+ul{
+	padding-left: 35px;
+	padding-right: 0px;
 }
 #FBicon{
 	background-color: #445897;
