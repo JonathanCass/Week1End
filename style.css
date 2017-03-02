@@ -4,3 +4,13 @@ html {
 *,*:before,*:after{
 	box-sizing: inherit;
 }
+#social{
+	display: flex;
+}
+#social div{
+	width: 60px;
+	height: 60px;
+	border:solid;
+	background-color: red;
+	border-color: #686465;
+}
