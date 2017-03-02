@@ -10,21 +10,34 @@ body{
 	background-color: black;
 	/*background-image: url("bg.jpg");*/
 }
+#container{
+	width: 1024px;
+}
 #social{
 	display: flex;
-	color: white;
 	justify-content: flex-end;
+}
+#social div,#navbar div{ 
+	border-width: 0 0 5px;
+	border-color: #919191;
+	border-style: solid;
+	text-align: center;
 }
 #social div{
 	width: 60px;
 	height: 65px;
 	line-height: 65px;
-	text-align: center;
 	font-size: 35px;
-	border-width: 0 0 5px;
-	border-color: #919191;
-	border-style: solid;
-	margin:5px 0px 15px 10px;
+	margin:5px;
+}
+#navbar{
+	display: flex;
+}
+#navbar div{
+	width: 250px;
+	height: 40px;
+	background-color: #B4292E;
+	margin: 5px;
 }
 #bpush{
 	margin-left: 10px;
