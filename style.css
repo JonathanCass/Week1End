@@ -4,13 +4,34 @@ html {
 *,*:before,*:after{
 	box-sizing: inherit;
 }
+body{
+	color: white;
+	/*background-image: url("bg.jpg");*/
+}
 #social{
 	display: flex;
 }
 #social div{
 	width: 60px;
 	height: 60px;
-	border:solid;
-	background-color: red;
-	border-color: #686465;
+	line-height: 60px;
+	text-align: center;
+	font-size: 35px;
+	border-width: 0 0 5px;
+	border-color: #919191;
+	border-style: solid;
+}
+#FBicon{
+	background-color: #445897;
+	<i class="fa fa-facebook" aria-hidden="true"></i>
+
+}
+#RSSicon{
+	background-color: #CC8F32;
+}
+#TWicon{
+	background-color: #6A8DC7;	
+}
+#YTicon{
+	background-color: #B4362A;
 }
