@@ -1,0 +1,1 @@
+Based on a mockup image create an active web page.
