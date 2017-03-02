@@ -6,25 +6,35 @@ html {
 }
 body{
 	color: white;
+	background-color: black;
 	/*background-image: url("bg.jpg");*/
 }
 #social{
 	display: flex;
+	color: white;
+	justify-content: flex-end;
 }
 #social div{
 	width: 60px;
-	height: 60px;
-	line-height: 60px;
+	height: 65px;
+	line-height: 65px;
 	text-align: center;
 	font-size: 35px;
 	border-width: 0 0 5px;
 	border-color: #919191;
 	border-style: solid;
 }
+p{
+	display:block;
+	width:200px;
+	height:60px;
+	line-height: 40px;
+}
+li{
+	line-height: 7px;
+}
 #FBicon{
 	background-color: #445897;
-	<i class="fa fa-facebook" aria-hidden="true"></i>
-
 }
 #RSSicon{
 	background-color: #CC8F32;
