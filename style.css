@@ -214,14 +214,46 @@ ul{
 	margin-top: -40px;
 }
 #footer i{
-	color: grey;
-	background-color: black;
-	width: 30px;
-	height: 30px;
+	color: #9C9C9C;
+	background-color: #4F4F4F;
+	width: 28px;
+	height: 28px;
 	text-align: center;
-	font-size: 26px;
-	line-height: 30px;
+	font-size: 22px;
+	line-height: 28px;
 	margin-top:20px;
+	margin-left:-3px;
+	margin-right:-3px;
 	position:relative;
 	left: 40px;
+}
+form{
+	display:flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	flex-direction: column;
+	position: relative;
+	left: 540px;
+	top: -210px;
+}
+input, textarea{
+	border-color: black;
+	border-style: solid;
+	border-top: 5px;
+	border-left: 5px;
+	outline-color: #B3B3B3;
+	outline-style: solid;
+	outline-width: 1px;
+}
+input{
+	width:430px;
+	height:40px;
+	float:right;
+}
+textarea{
+	float:right;
+	width: 430px;
+	height: 110px;
+	margin-left: 7px;
+	margin-top: 15px;
 }
