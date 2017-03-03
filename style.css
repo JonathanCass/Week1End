@@ -18,7 +18,7 @@ body{
 	display: flex;
 	justify-content: flex-end;
 }
-#social div,#navbar div,#banner,#pictures div{ 
+#social div,#navbar div,#banner,#pictures div, #skateboards{ 
 	border-width: 0 0 5px;
 	border-color: #919191;
 	border-style: solid;
@@ -174,4 +174,15 @@ ul{
 }
 #YTicon{
 	background-color: #B4362A;
+}
+#skateboards{
+	width: 1004px;
+	margin: 15px 10px;
+	height: 300px;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+}
+#skateboards img{
+	margin: 12px 6px 18px;
 }
