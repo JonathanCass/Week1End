@@ -18,7 +18,7 @@ body{
 	display: flex;
 	justify-content: flex-end;
 }
-#social div,#navbar div{ 
+#social div,#navbar div,#banner{ 
 	border-width: 0 0 5px;
 	border-color: #919191;
 	border-style: solid;
@@ -43,10 +43,23 @@ body{
 	font-size: 18px;
 }
 #banner{
-	width: 1004px;
+	width: 1014px;
 	height: 360px;
 	background-color: white;
-	border: solid white 10px;
+	margin: 15px 5px;
+}
+#bannerimg{
+	width: 1014px;
+	height: 355px;
+	background-color: red;
+	border: 10px solid white;
+}
+form{
+	display:flex;
+	justify-content: center;
+}
+input{
+	margin: 7px;
 }
 #bpush{
 	margin-left: 10px;
