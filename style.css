@@ -5,9 +5,10 @@ html {
 	box-sizing: inherit;
 }
 body{
-	font-size: 14px;
+	font-size: 16px;
 	color: white;
 	background-color: black;
+	font-family: "Courier New";
 	/*background-image: url("bg.jpg");*/
 }
 #container{
@@ -38,6 +39,14 @@ body{
 	height: 40px;
 	background-color: #B4292E;
 	margin: 5px;
+	line-height: 38px;
+	font-size: 18px;
+}
+#banner{
+	width: 1004px;
+	height: 360px;
+	background-color: white;
+	border: solid white 10px;
 }
 #bpush{
 	margin-left: 10px;
