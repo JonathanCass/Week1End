@@ -17,6 +17,7 @@ body{
 #social{
 	display: flex;
 	justify-content: flex-end;
+	width: 1020px;
 }
 #social div,#navbar div,#banner,#pictures div, #skateboards,#footer{ 
 	border-width: 0 0 5px;
@@ -38,18 +39,19 @@ body{
 	width: 250px;
 	height: 40px;
 	background-color: #B4292E;
-	margin: 5px;
+	margin-left: 10px;
+	margin-bottom: 7px;
 	line-height: 38px;
 	font-size: 18px;
 }
 #banner{
-	width: 1014px;
+	width: 1004px;
 	height: 360px;
 	background-color: white;
-	margin: 15px 5px;
+	margin: 15px 10px;
 }
 #bannerimg{
-	width: 1014px;
+	width: 1004px;
 	height: 355px;
 	background-image: url("top-image.png");
 	border: 10px solid white;
