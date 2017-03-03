@@ -18,7 +18,7 @@ body{
 	display: flex;
 	justify-content: flex-end;
 }
-#social div,#navbar div,#banner,#pictures{ 
+#social div,#navbar div,#banner,#pictures div{ 
 	border-width: 0 0 5px;
 	border-color: #919191;
 	border-style: solid;
@@ -57,7 +57,7 @@ body{
 #pictures{
 	width: 1014px;
 	height: 480px;
-	background: green;
+	background: transparent;
 	margin: 15px 5px;
 }
 #pictures div{
@@ -67,12 +67,59 @@ body{
 	background-color: white;
 	margin: 5px;
 }
+#pictures div div{
+	background-color: red;
+	border:5px solid blue;
+	margin:0;
+	height: 225px;
+	/*text-align: center;
+	font-size: 46px;
+	font-weight: bold;font-family: Arial;*/
+}
+#pictures div div p{
+	text-align: center;
+	font-size: 46px;
+	font-weight: bold;font-family: Arial
+}
 #pictures #Tommy{
-	height: 470px;
+	height: 465px;
 }
 #pictures #Steve{
 	width: 666px;
 	margin-top:-235px;
+}
+#pictures #Steve #Steveinner{
+	width: 666px;
+	background-image: url("sk8er-1.png");
+	border:5px solid white;
+	margin:0;
+	padding:0;
+}
+#Steveinner div{
+	width: 666px;
+	height: 225px;
+	text-align: center;
+}
+#pictures #Tommy #Tommyinner{
+	height:460px;
+	background-image: url("sk8er-2.png");
+	border:5px solid white;
+	margin:0;
+	padding:0;
+}
+#pictures #Lance #Lanceinner{
+	height:225px;
+	background-image: url("sk8er-4.png");
+	border:5px solid white;
+	margin:0;
+	padding:0;
+}
+#pictures #Rodney #Rodneyinner{
+	height:225px;
+	background-image: url("sk8er-3.png");
+	border:5px solid white;
+	margin:0;
+	padding:0;
 }
 form{
 	display:flex;
