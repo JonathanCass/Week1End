@@ -59,6 +59,20 @@ body{
 	height: 480px;
 	background: transparent;
 	margin: 15px 5px;
+	position: relative;
+}
+#pictures #arrow{
+	height: 95px;
+	width: 240px;
+	background-color: #B4292E;
+	position: absolute;
+	font-weight: bold;
+	font-size: 26px;
+	text-align: center;
+	line-height: 95px;
+	font-family: Arial;
+	left:-100px;
+	top:100px;	
 }
 #pictures div{
 	float: left;
@@ -72,13 +86,13 @@ body{
 	border:5px solid blue;
 	margin:0;
 	height: 225px;
-	/*text-align: center;
-	font-size: 46px;
-	font-weight: bold;font-family: Arial;*/
+	display:flex;
+	align-items: center;
+	justify-content: center;
 }
 #pictures div div p{
 	text-align: center;
-	font-size: 46px;
+	font-size: 40px;
 	font-weight: bold;font-family: Arial
 }
 #pictures #Tommy{
@@ -94,11 +108,6 @@ body{
 	border:5px solid white;
 	margin:0;
 	padding:0;
-}
-#Steveinner div{
-	width: 666px;
-	height: 225px;
-	text-align: center;
 }
 #pictures #Tommy #Tommyinner{
 	height:460px;
