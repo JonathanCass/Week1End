@@ -276,22 +276,44 @@ textarea{
 #articles{
 	height:350px;
 	width:1040px;
+	margin-top: 15px;
+	margin-bottom: 25px;
 	float:left;
-	font-family: times; 
+	font-family: times;
+	display:flex;
+	justify-content: space-between;
+	position:relative;
+	left:10px; 
 }
 #articles div{
 	color: black;
 	float:left;
-	margin: 10px;
 	height: 350px;
-	width: 321px;
+	width: 328px;
 	background-color: white;
-	margin-right: 10px;
+	margin-left: 0px;
 }
 h2{
 	font-size: 24px;
 	font-weight: normal;
 	padding-top: 15px;
 	padding-left: 30px;
-	padding-right: 30px;	
+	padding-right: 30px;
+	padding-bottom: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;	
+}
+.date{
+	font-size: 16px;
+	color: grey;
+	padding-left: 30px;
+	line-height: 40px;
+}
+.articletext{
+	font-size: 15px;
+	line-height: 22px;
+	padding-left: 30px;
+	padding-right: 50px;
+	width: 340px;
+	color: #727272;
 }
