@@ -275,7 +275,7 @@ textarea{
 }
 #articles{
 	height:350px;
-	width:1040px;
+	width:1004px;
 	margin-top: 15px;
 	margin-bottom: 25px;
 	float:left;
@@ -296,7 +296,7 @@ textarea{
 h2{
 	font-size: 24px;
 	font-weight: normal;
-	padding-top: 15px;
+	padding-top: 20px;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-bottom: 0;
@@ -307,7 +307,7 @@ h2{
 	font-size: 16px;
 	color: grey;
 	padding-left: 30px;
-	line-height: 40px;
+	line-height: 50px;
 }
 .articletext{
 	font-size: 15px;
@@ -316,4 +316,5 @@ h2{
 	padding-right: 50px;
 	width: 340px;
 	color: #727272;
+	margin-top: 0px;
 }
