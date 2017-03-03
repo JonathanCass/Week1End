@@ -18,7 +18,7 @@ body{
 	display: flex;
 	justify-content: flex-end;
 }
-#social div,#navbar div,#banner{ 
+#social div,#navbar div,#banner,#pictures{ 
 	border-width: 0 0 5px;
 	border-color: #919191;
 	border-style: solid;
@@ -53,6 +53,26 @@ body{
 	height: 355px;
 	background-color: red;
 	border: 10px solid white;
+}
+#pictures{
+	width: 1014px;
+	height: 480px;
+	background: green;
+	margin: 15px 5px;
+}
+#pictures div{
+	float: left;
+	height: 230px;
+	width: 328px;
+	background-color: white;
+	margin: 5px;
+}
+#pictures #Tommy{
+	height: 470px;
+}
+#pictures #Steve{
+	width: 666px;
+	margin-top:-235px;
 }
 form{
 	display:flex;
