@@ -227,7 +227,7 @@ ul{
 	position:relative;
 	left: 40px;
 }
-form{
+#footform{
 	display:flex;
 	flex-wrap: wrap;
 	align-items: flex-start;
@@ -236,7 +236,7 @@ form{
 	left: 545px;
 	top: -220px;
 }
-input, textarea{
+#footform input, textarea{
 	border-color: #B3B3B3;
 	border-style: solid;
 	border-bottom: 5px;
@@ -245,7 +245,7 @@ input, textarea{
 	outline-style: solid;
 	outline-width: 1px;
 }
-input{
+#footform input{
 	width:430px;
 	height:40px;
 	margin-bottom: 15px;
