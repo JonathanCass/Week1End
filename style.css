@@ -317,6 +317,9 @@ textarea{
 	margin-top: 10px;
 	padding-top: 10px;
 	padding-left: 10px;
+	border: 2.5px solid #B3B3B3;
+	border-right: 0px;
+	border-bottom: 0px;
 }
 ::-webkit-input-placeholder{
 	font-size: 16px;
