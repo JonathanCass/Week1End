@@ -21,13 +21,28 @@ body{
 #social{
 	display: flex;
 	justify-content: flex-end;
-	width: 1018px;
+	width: 1014px;
+}
+.fa-facebook{
+	color: #7583B2;
+}
+.fa-rss{
+	color: #D7AB6A;
+}
+.fa-twitter{
+	color: #90A8D4;
+}
+.fa-youtube{
+	color: #C46A62;
 }
 #social div,#navbar div,#banner,#pictures div, #skateboards,#footer{ 
 	border-width: 0 0 5px;	
 	border-color: #919191;
 	border-style: solid;
 	text-align: center;
+}
+#navbar{
+margin-left: -4px;
 }
 #social div{
 	width: 60px;
@@ -54,7 +69,7 @@ body{
 	width: 1004px;
 	height: 360px;
 	background-color: white;
-	margin: 15px 10px 20px;
+	margin: 15px 6px 20px;
 }
 #bannerimg{
 	width: 1004px;
@@ -74,14 +89,14 @@ body{
 	height: 95px;
 	width: 240px;
 	background-color: #B4292E;
-	position: absolute;
+	position: relative;
 	font-weight: bold;
 	font-size: 26px;
 	text-align: center;
 	line-height: 95px;
 	font-family: Arial;
-	/*left: -280px;
-	top: 450px;*/	
+	right: 280px;
+	top: -400px;
 }
 #pictures #arrow:after{
 	content:"";
@@ -327,7 +342,7 @@ textarea{
 	display:flex;
 	justify-content: space-between;
 	position:relative;
-	left:10px; 
+	left: 5px; 
 }
 #articles div{
 	color: black;
